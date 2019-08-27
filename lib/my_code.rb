@@ -52,7 +52,7 @@ end
 
 def reduce_to_any_true(source_array)
   for element in source_array
-    return false if !element
+    return true if element
   end
   false
 end
