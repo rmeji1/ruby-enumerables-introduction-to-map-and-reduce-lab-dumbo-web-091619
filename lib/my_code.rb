@@ -37,7 +37,7 @@ def reduce_to_total(source_array, starting_point)
   total = 0 
   
   for index in starting_point...source_array.size
-    total += element
+    total += source_array[index]
   end
   
   total
