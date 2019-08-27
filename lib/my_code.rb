@@ -40,6 +40,6 @@ def reduce_to_total(source_array)
     total += element
   end
   
-  dest_array
+  total
 end
 
