@@ -47,6 +47,7 @@ def reduce_to_all_true(source_array)
   for element in source_array
     return false if !element
   end
+  
   true
 end
 
