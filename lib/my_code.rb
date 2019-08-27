@@ -45,11 +45,8 @@ end
 
 def reduce_to_all_true(source_array)
   for element in source_array
-    if !element{
-      return false
-    }
+    if !element return false end
   end
-  
   true
 end
 
