@@ -9,4 +9,6 @@ def map_to_negativize(source_array)
   dest_array
 end
 
-def 
+def map_to_no_change(source_array)
+  source_array
+end
