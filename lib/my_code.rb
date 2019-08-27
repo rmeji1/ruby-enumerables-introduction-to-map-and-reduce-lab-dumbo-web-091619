@@ -54,6 +54,7 @@ def reduce_to_any_true(source_array)
   for element in source_array
     return true if element
   end
+  
   false
 end
 
