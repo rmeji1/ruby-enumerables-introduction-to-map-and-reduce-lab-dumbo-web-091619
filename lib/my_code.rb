@@ -37,7 +37,7 @@ def reduce_to_total(source_array)
   total = 0 
   
   for element in source_array
-    dest_array << element ** 2
+    total += element
   end
   
   dest_array
