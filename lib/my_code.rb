@@ -27,7 +27,7 @@ def map_to_square(source_array)
   dest_array = []
   
   for element in source_array
-    dest_array << element ** 
+    dest_array << element ** 2
   end
   
   dest_array
